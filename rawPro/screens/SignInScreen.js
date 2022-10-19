@@ -77,7 +77,7 @@ function SignIn({navigation}) {
                 <View style={{flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
                     <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked}
                               color={isChecked ? '#FFD8A9' : undefined}/>
-                     <Text style={styles.paragraph}>Remember me .</Text>
+                     <Text style={styles.paragraph}>Remember mee ...</Text>
                 </View>
                 <View>
                     <ButonForm name={i18n.t('signinScreen.signInBtn')} onPress={handleClick}/>
